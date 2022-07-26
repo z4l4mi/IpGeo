@@ -1,6 +1,6 @@
 # IPGeo
 
-IpGeo is a python tool to extract IP addresses from captured network  traffic file (pcap/pcapng) and generate  csv report containing details about the geolication of each ip in the packets.
+IpGeo is a python tool to extract IP addresses from captured network  traffic file (pcap/pcapng) and generate  csv report containing details about the geolocation of each ip in the packets.
 
 ### The report contains:
 1. Country:
