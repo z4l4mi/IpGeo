@@ -29,7 +29,7 @@ def ips_list(ips):
 		elif ip not in aborted_ips and '192.168.' in ip:
 			aborted_ips.append(ip)
 	for ip in aborted_ips:
-		print(Fore.YELLOW + "[!] Remove " + Fore.RED + ip + Fore.YELLOW + ' From Scaning')
+		print(Fore.YELLOW + "[!] Remove " + Fore.RED + ip + Fore.YELLOW + ' From Scanning')
 	#call get ip info function
 	if len(ips_lists) <1:
 		exit(Fore.RED + "[-] No ip to scan. ")
