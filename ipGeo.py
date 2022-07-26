@@ -3,6 +3,7 @@ import requests
 import csv
 from colorama import Fore
 from datetime import date
+import ipaddress
 
 def read_pcap(pcap_file):
 	ips = []
@@ -24,7 +25,7 @@ def ips_list(ips):
 	ips_lists = []
 	aborted_ips = []
 	for ip in ips :
-		if ip not in ips_lists and '192.168.' not in ip:
+		if ip not in ips_lists and ipaddress.ip_address(ip).is_global:
 			ips_lists.append(ip)
 		elif ip not in aborted_ips and '192.168.' in ip:
 			aborted_ips.append(ip)
