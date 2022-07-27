@@ -27,7 +27,7 @@ def ips_list(ips):
 	for ip in ips :
 		if ip not in ips_lists and ipaddress.ip_address(ip).is_global:
 			ips_lists.append(ip)
-		elif ip not in aborted_ips and '192.168.' in ip:
+		elif ip not in aborted_ips and ipaddress.ip_address(ip).is_private:
 			aborted_ips.append(ip)
 	for ip in aborted_ips:
 		print(Fore.YELLOW + "[!] Remove " + Fore.RED + ip + Fore.YELLOW + ' From Scanning')
