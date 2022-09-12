@@ -38,6 +38,7 @@ python3 ipGeo.py
 # then you will enter captured traffic file path
 ```
 ## Screenshot from the script
-![130827551-0f1cc552-44c2-4782-a330-958fc718290e](https://user-images.githubusercontent.com/89426041/180989300-f4337d17-28fb-4034-b7d4-37f94d62bfde.png)
+![ipGeo](https://user-images.githubusercontent.com/89426041/189775552-78dfb962-23ba-46e7-b1f0-3e31ef54ebd3.png)
+
 ## Contact
 Reddit: [doloren59](https://www.reddit.com/user/doloren59)
