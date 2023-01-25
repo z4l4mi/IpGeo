@@ -40,5 +40,3 @@ python3 ipGeo.py
 ## Screenshot from the script
 ![ipGeo](https://user-images.githubusercontent.com/89426041/189775552-78dfb962-23ba-46e7-b1f0-3e31ef54ebd3.png)
 
-## Contact
-Reddit: [doloren59](https://www.reddit.com/user/doloren59)
